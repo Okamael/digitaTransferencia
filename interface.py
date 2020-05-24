@@ -75,6 +75,8 @@ class Interface:
         self.btIniciar["command"] = self.iniciaDigitação
         self.btIniciar.pack()
 
+        self.mensagem = Label(self.sextoContainer,text="",font=self.fontePadrao)
+        self.mensagem.pack()
 
     def iniciaDigitação(self):
         filialOri = self.filOrigem.get()
