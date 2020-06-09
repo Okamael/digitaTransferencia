@@ -1,9 +1,10 @@
 # digitaTransferencia
 Automatização  de digitação de transferência no Protheus
 Com o objetivo de realizar a  redução de demanda por parte do departamento fiscal por conta de um processo manual de digitação de transferencia.
-Foi utilizado as bibliotecas pyautogui, time, tkinter.
+<h1> Biblioteca utilizada </h1>
+<p><strong> Foi utilizado as bibliotecas pyautogui, time, tkinter.</strong> </p>
 
-<h1>Teste </h1>
+<h1>Explicação do programa </h1>
 O programa esta separado em 2 scripys.
 Sendo ele Interface.py encarregado que mostrar uma tela simples para receber os inputs de informações.
 E digiteTransferencias.py corpo principal com a  função digitaTransferencia(filialOrigem,filialDestino,ltProdutos,ltaQuantidade).
